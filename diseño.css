@@ -1,0 +1,28 @@
+.body{
+    background-color: black;
+    background: black;
+}
+.encabezado{
+    background-color: black;
+    margin-top: auto;
+    width: 100%;
+    margin-left: auto;
+    color:  white;
+    height: 80px; 
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Usa 'row' si prefieres una disposición horizontal */
+    justify-content: center; /* Centra horizontalmente para 'row', no afecta en 'column' */
+    align-items: center; /* Centra verticalmente */
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tituloencabezado{
+    align-items: center;
+    margin-top: auto
+
+}
